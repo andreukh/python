@@ -50,7 +50,7 @@ while True:
     if type(int(input_value)) !=int:
         print('Enter int pleace')
         continue
-    
+
 
 
     nn = int(input_value) *2
