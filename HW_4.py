@@ -77,3 +77,6 @@ while True:
     #     print('"' + number_1 + '"', 'Not is number. Please, enter number')
     #     number_1 = input()
     #     continue
+
+    #Задача 4
+
