@@ -6,7 +6,6 @@ dict_data = {
              'meat':['pelmeni', 'meat', 'soiska v teste']}
     'salary':[250,320,700,1100,1200,1500,2000]
 }
-count=0
 key_list = []
 
 for i,k in dict_data.items:

@@ -66,6 +66,7 @@ while True:
             print('Конвертированная сумма в CNY =', int(number_1 / 12.02))
             break
     # Задача 4
+    убрать из списка валюту которую конвертируем, через цикл(?) и.или копию списка
     a = ['USD', 'EUR', 'CHF', 'GBP', 'CNY']
     coef_usd = [1, 0.87, 0.92, 0.74, 6, 36]
     coef_eur = [1.15, 1, 1.06, 0.84, 7.29]
@@ -118,6 +119,8 @@ while True:
             a1 = [i * inp_2 for i in b]
             s = dict(zip(a[::], a1[::]))
             print(s)
+
+
     # elif type(number_1) == str:
     #     print('"' + number_1 + '"', 'Is not a number. Please, enter a number')1
     #     number_1 = input()
